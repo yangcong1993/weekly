@@ -8,6 +8,7 @@ export const SITE = {
   homePage: 'https://weekly.tw93.fun',
   blogPage: 'https://tw93.fun/',
   twitterId: 'HiTw93',
-  githubId: 'tw93',
-  repo: 'tw93/weekly',
+  githubId: 'yangcong1993',
+  repo: 'yangcong1993/weekly',
+  bilibiliId: '2584848',
 };
