@@ -14,9 +14,9 @@ export function GET() {
   posts = posts.slice(0, 12);
 
   return rss({
-    title: "潮流周刊",
-    description: "记录工程师 Tw93 的不枯燥生活",
-    site: "https://weekly.tw93.fun/",
+    title: "TrendWeekly",
+    description: "记录CAE工程师的学习生活",
+    site: "https://www.trendbloger.cn/",
     customData: `<image><url>https://gw.alipayobjects.com/zos/k/qv/coffee-2-icon.png</url></image><follow_challenge><feedId>41147805276726275</feedId><userId>42909600318350336</userId></follow_challenge>`,
     items: posts.map((item) => {
       const [issueNumber, issueTitle] = item.url.split("/posts/")[1].split("-");
