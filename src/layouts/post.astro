@@ -214,7 +214,7 @@ let prevUrl = postIndex < allPosts.length ? allPosts[allPosts.length - postIndex
               {nextUrl ? <a href={nextUrl}>下一篇 |</a> : null}
               {prevUrl ? <a href={prevUrl}>上一篇 |</a> : null}
               <a href="/">去首页 |</a>
-              <a href={`https://twitter.com/${SITE.twitterId}`} target="_blank" title="Follow">Twitter</a>
+              <a href={`https://space.bilibili.com/${SITE.Bilibili}`} target="_blank" title="Follow">Bilibili</a>
               <a
                 href={`https://github.com/${SITE.githubId}/weekly`}
                 title="Star"
@@ -258,5 +258,27 @@ let prevUrl = postIndex < allPosts.length ? allPosts[allPosts.length - postIndex
         });
       });
     </script>
+    <style>
+      #giscus_thread {
+        margin: 0 auto; /* 水平居中 */
+        width: 80%; /* 可以根据需要调整宽度 */
+      }
+    </style>
+    <script src="https://giscus.app/client.js"
+      data-repo="yangcong1993/weekly"
+      data-repo-id="R_kgDONhk12w"
+      data-category="Announcements"
+      data-category-id="DIC_kwDONhk1284ClnwZ"
+      data-mapping="pathname"
+      data-strict="0"
+      data-reactions-enabled="1"
+      data-emit-metadata="0"
+      data-input-position="bottom"  
+      data-theme="preferred_color_scheme"
+      data-lang="zh-CN"
+      crossorigin="anonymous"
+      async>
+    </script>
+
   </body>
 </html>
