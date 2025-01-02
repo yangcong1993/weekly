@@ -22,6 +22,7 @@
     "postbuild": "pagefind --site dist"
   },
   "dependencies": {
+    "@fontsource/lxgw-wenkai-tc": "^5.1.1",
     "@pagefind/default-ui": "^1.1.0",
     "astro": "^4.16.10",
     "dayjs": "^1.11.11",

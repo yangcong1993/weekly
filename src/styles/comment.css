@@ -1,4 +1,5 @@
 @import url('https://gw.alipayobjects.com/os/k/font/lxgwwenkaiscreenr.css');
+@import '@fontsource/lxgw-wenkai-tc';
 
 main {
   --color-btn-text: #24292f;
